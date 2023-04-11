@@ -1,16 +1,16 @@
-import { extendTheme } from "@chakra-ui/react";
+import { extendTheme } from '@chakra-ui/react';
 
 // All global style overrides
-import styles from "./styles";
+import styles from './styles';
 
 // A;; semantic tokens overrides
-import { semanticTokens } from "./semantic-tokens";
+import { semanticTokens } from './semantic-tokens';
 
 // All foundations style overrides
-import { foundations } from "./foundations";
+import { foundations } from './foundations';
 
 // Component style overrides
-import { components } from "./components";
+import { components } from './components';
 
 export const theme = extendTheme({
   ...foundations,
